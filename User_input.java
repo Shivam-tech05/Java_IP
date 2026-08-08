@@ -7,5 +7,7 @@ public class User_input {
         System.out.print("Enter your age: ");
         int age = sc.nextInt(); //nextInt() reads the next integer from the input
         System.out.println("Hello, This is " + name + " and I am " + age + " years old.");
+        
+        sc.close(); // Close the scanner to prevent resource leaks
     }
 }
