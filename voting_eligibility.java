@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class voting_eligibility {
+public class Voting_eligibility {
     public static void main(String[] args){ // main method to check voting eligibility
         Scanner sc = new Scanner(System.in); // Create a Scanner object to read input from the user
         System.out.print("Enter your Age:");
